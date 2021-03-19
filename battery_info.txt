@@ -1,0 +1,1 @@
+SysFs-Path: /sys/class/power_supply/max77818_battery
