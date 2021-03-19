@@ -1,0 +1,1 @@
+SysFs-Path: /sys/class/power_supply/bq27441-0

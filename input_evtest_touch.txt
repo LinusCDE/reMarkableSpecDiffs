@@ -1,0 +1,51 @@
+$ evtest /dev/input/event1
+Input driver version is 1.0.1
+Input device ID: bus 0x0 vendor 0x0 product 0x0 version 0x0
+Input device name: "cyttsp5_mt"
+Supported events:
+  Event type 0 (EV_SYN)
+  Event type 1 (EV_KEY)
+  Event type 2 (EV_REL)
+  Event type 3 (EV_ABS)
+    Event code 25 (ABS_DISTANCE)
+      Value      0
+      Min        0
+      Max      255
+    Event code 47 (ABS_MT_SLOT)
+      Value      0
+      Min        0
+      Max       31
+    Event code 48 (ABS_MT_TOUCH_MAJOR)
+      Value      0
+      Min        0
+      Max      255
+    Event code 49 (ABS_MT_TOUCH_MINOR)
+      Value      0
+      Min        0
+      Max      255
+    Event code 52 (ABS_MT_ORIENTATION)
+      Value      0
+      Min     -127
+      Max      127
+    Event code 53 (ABS_MT_POSITION_X)
+      Value      0
+      Min        0
+      Max      767
+    Event code 54 (ABS_MT_POSITION_Y)
+      Value      0
+      Min        0
+      Max     1023
+    Event code 55 (ABS_MT_TOOL_TYPE)
+      Value      0
+      Min        0
+      Max        1
+    Event code 57 (ABS_MT_TRACKING_ID)
+      Value      0
+      Min        0
+      Max    65535
+    Event code 58 (ABS_MT_PRESSURE)
+      Value      0
+      Min        0
+      Max      255
+Properties:
+  Property type 1 (INPUT_PROP_DIRECT)

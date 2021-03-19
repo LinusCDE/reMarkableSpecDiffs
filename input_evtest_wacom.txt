@@ -1,0 +1,37 @@
+$ evtest /dev/input/event0
+Input driver version is 1.0.1
+Input device ID: bus 0x18 vendor 0x56a product 0x0 version 0x36
+Input device name: "Wacom I2C Digitizer"
+Supported events:
+  Event type 0 (EV_SYN)
+  Event type 1 (EV_KEY)
+    Event code 320 (BTN_TOOL_PEN)
+    Event code 321 (BTN_TOOL_RUBBER)
+    Event code 330 (BTN_TOUCH)
+    Event code 331 (BTN_STYLUS)
+    Event code 332 (BTN_STYLUS2)
+  Event type 3 (EV_ABS)
+    Event code 0 (ABS_X)
+      Value      0
+      Min        0
+      Max    20967
+    Event code 1 (ABS_Y)
+      Value      0
+      Min        0
+      Max    15725
+    Event code 24 (ABS_PRESSURE)
+      Value      0
+      Min        0
+      Max     4095
+    Event code 25 (ABS_DISTANCE)
+      Value      0
+      Min        0
+      Max      255
+    Event code 26 (ABS_TILT_X)
+      Value      0
+      Min    -9000
+      Max     9000
+    Event code 27 (ABS_TILT_Y)
+      Value      0
+      Min    -9000
+      Max     9000
